@@ -1,0 +1,35 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.App{
+  text-align: center;
+  background-color: rgb(238, 230, 232);
+  height: calc(100vh - 100px);
+  position: relative;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+.app__form{
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  bottom: 0px;
+  padding: 1rem;
+  width: 100vw;
+  height: 100px;
+}
+.app__formcontrol{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app__form_input{
+  flex: 1 !important;
+}
+.app__form_submit{
+  flex: 0 !important;
+}
